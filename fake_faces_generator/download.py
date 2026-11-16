@@ -9,7 +9,7 @@ import aiohttp
 import backoff
 from tqdm.asyncio import tqdm_asyncio
 
-URL = "https://thispersondoesnotexist.com"
+URL = "https://thispersondoesnotexist.com/random-person.jpeg"
 CONCURRENT_LIMIT = 50
 SEEN_FILENAME = "seen_images.pkl"
 
